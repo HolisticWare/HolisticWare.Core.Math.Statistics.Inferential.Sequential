@@ -35,6 +35,7 @@ plt.show()
 
 
 # Multiple comparison set
+# @TODO: Ad other PostHoc methods
 mult_comp = sm.stats.multicomp.MultiComparison(data['x1'], data['Age']) 
 print(mult_comp.tukeyhsd()) # Tukey post-hoc testing, for example
 
